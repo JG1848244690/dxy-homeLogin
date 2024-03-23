@@ -1,0 +1,9 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8888
+spring:
+  datasource:
+    url: jdbc:mysql://182.92.11.212/dxyHome?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
